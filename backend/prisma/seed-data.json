@@ -1,0 +1,2433 @@
+[
+  {
+    "id": "2025-n1",
+    "name": "2025 全国I卷",
+    "year": 2025,
+    "description": "2025年高考英语全国I卷阅读理解",
+    "passages": [
+      {
+        "id": "why-writing",
+        "title": "Why Writing Matters",
+        "sourceInfo": "2025 全国I卷 · Passage B · Q24-27",
+        "paragraphs": [
+          {
+            "id": 1,
+            "sentences": [
+              {
+                "id": 1,
+                "text": "In my ninth-grade writing class last year, I met a cowboy who saved his town, a strict father who demanded his son earn straight A's, and a modern-day Juliet who died of heartbreak after her parents rejected the love of her young life."
+              },
+              {
+                "id": 2,
+                "text": "More than once, I found myself wondering just how my students, who'd created these people, knew their subjects so well."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "sentences": [
+              {
+                "id": 3,
+                "text": "But things were different for their first essay, which was about the question: \"Why is writing important?\""
+              },
+              {
+                "id": 4,
+                "text": "Most of the essays filled less than one page, and few contained a sentence that could be interpreted as a thesis statement."
+              },
+              {
+                "id": 5,
+                "text": "I was shocked."
+              },
+              {
+                "id": 6,
+                "text": "Then I realized that the problem was the question itself."
+              },
+              {
+                "id": 7,
+                "text": "They could have written pages on the necessity of computers, but writing, in and of itself, simply didn't strike them as important."
+              },
+              {
+                "id": 8,
+                "text": "This would have to change."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "sentences": [
+              {
+                "id": 9,
+                "text": "As a new unit started, I asked everyone to write a persuasive piece on a health-related topic of their choice."
+              },
+              {
+                "id": 10,
+                "text": "This time they found the exercise much more interesting."
+              },
+              {
+                "id": 11,
+                "text": "For the next two assignments, a personal-narrative unit followed by a creative-writing workshop, I only required that the piece meet the specifications of its genre and that it contain a thesis."
+              },
+              {
+                "id": 12,
+                "text": "The results were staggering."
+              },
+              {
+                "id": 13,
+                "text": "The students took on diverse topics and turned in stories, 10 to 20 pages each, with characters that broadened my view and touched my heart."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "sentences": [
+              {
+                "id": 14,
+                "text": "I walked into class believing that writing is important as a means of communication."
+              },
+              {
+                "id": 15,
+                "text": "However, my students demonstrated something more important to me."
+              },
+              {
+                "id": 16,
+                "text": "When the final bell rang in June, I walked away with a yearbook full of messages about writing's most powerful significance — the ability to connect people, to put us in another's skin, to teach us what it means to be human."
+              }
+            ]
+          }
+        ],
+        "passageStructure": {
+          "type": "reflective",
+          "thesisLocation": "last-paragraph",
+          "thesisSentence": "writing's most powerful significance — the ability to connect people, to put us in another's skin, to teach us what it means to be human."
+        },
+        "passageSummary": [
+          {
+            "paragraphId": 1,
+            "summary": "作者回忆九年级写作课上学生创造出鲜活人物角色，惊叹于学生对写作对象的深刻理解。",
+            "keyInfo": "学生创作的角色 → 惊叹学生的理解力"
+          },
+          {
+            "paragraphId": 2,
+            "summary": "第一篇作文\"为何写作重要\"反应冷淡——学生写不出主旨句，作者意识到问题在于题目本身。",
+            "keyInfo": "转折：学生不认为写作本身重要 → 问题出在题目"
+          },
+          {
+            "paragraphId": 3,
+            "summary": "改变命题策略后，学生写出10-20页的精彩故事，结果令人惊叹。",
+            "keyInfo": "改变命题 → 学生爆发创作力 → staggering results"
+          },
+          {
+            "paragraphId": 4,
+            "summary": "作者总结：写作最重要的意义是连接人与人、换位思考、理解人性。",
+            "keyInfo": "主旨：writing connects people / teaches us to be human"
+          }
+        ],
+        "questions": [
+          {
+            "id": 1024,
+            "number": 24,
+            "questionType": "detail",
+            "locked": false,
+            "stem": "Who are the people mentioned at the beginning of paragraph 1?",
+            "stemTokens": [
+              {
+                "text": "Who",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "are",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "people",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "mentioned",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "at",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "beginning",
+                "index": 7,
+                "isKeyword": true
+              },
+              {
+                "text": "of",
+                "index": 8,
+                "isKeyword": false
+              },
+              {
+                "text": "paragraph",
+                "index": 9,
+                "isKeyword": true
+              },
+              {
+                "text": "1?",
+                "index": 10,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              1
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Ninth graders.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "文中提到「ninth-grade writing class」和「students」，但学生是这些角色的「创造者」而非被描述对象本身。cowboy/father/Juliet是学生写出来的虚构人物，不是九年级学生自己。",
+                "evidenceSentence": "In my ninth-grade writing class last year, I met a cowboy who saved his town, a strict father who demanded his son earn straight A's, and a modern-day Juliet who died of heartbreak...",
+                "questionId": 1024
+              },
+              {
+                "id": "B",
+                "text": "Students' parents.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提及students' parents（学生家长），文章讨论的是老师、学生和他们创作的人物，完全没有家长的身影。",
+                "evidenceSentence": "",
+                "questionId": 1024
+              },
+              {
+                "id": "C",
+                "text": "Modern writers.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提及modern writers（现代作家），文中出现的 cowboy/father/Juliet 是学生创作的故事角色，并非职业作家。",
+                "evidenceSentence": "",
+                "questionId": 1024
+              },
+              {
+                "id": "D",
+                "text": "Fictional characters.",
+                "distractorType": "correct",
+                "distractorExplanation": "题干问「paragraph 1开头被提到的人」→ cowboy/father/Juliet 是虚构角色。后文确认「who'd created these people」，即学生创造的人物 = 虚构角色。",
+                "evidenceSentence": "I met a cowboy who saved his town, a strict father who demanded his son earn straight A's, and a modern-day Juliet... who'd created these people, knew their subjects so well.",
+                "questionId": 1024
+              }
+            ],
+            "correctAnswer": "D",
+            "passageAnnotations": [
+              "cowboy",
+              "strict father",
+              "modern-day Juliet",
+              "created these people"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"people\"（什么样的人）、\"mentioned\"（被提到）、\"beginning\"（开头）、\"paragraph 1\"（第一段）是定位关键词。这些词共同指向：需要找的是第一段开头被提到的人物。",
+              "locationReasoning": "正确答案位于第一段。该段描述了三类具体人物（牛仔、严厉父亲、现代朱丽叶），并用 \"who'd created these people\" 明确指出这些人物是学生们「创造」出来的——即虚构角色。",
+              "exclusionReasoning": "A选项\"九年级学生\"是干扰项：文中提到学生在九年级写作课上创造了这些角色，学生是创造者而非被描述对象。B选项\"学生家长\"和C选项\"现代作家\"在文中均未提及。",
+              "conclusion": "正确答案为 D（Fictional characters / 虚构角色）。题干定位段首 → 识别三类具体人物 → 后文确认是学生创造 → 判定为虚构角色。",
+              "logicChain": [
+                "① 题干关键词定位：people + beginning + paragraph 1 → 第一段",
+                "② 文段扫描：P1 列出 cowboy / father / Juliet 三个具体人物",
+                "③ 上下文验证：P1 后文确认这些人物由 students created（学生创造）",
+                "④ 选项排除：A 创造者≠被描述者，B/C 未提及",
+                "⑤ 判定：D. Fictional characters ✓"
+              ]
+            }
+          },
+          {
+            "id": 1025,
+            "number": 25,
+            "questionType": "detail",
+            "locked": false,
+            "stem": "Why did the students perform poorly in writing their first essay?",
+            "stemTokens": [
+              {
+                "text": "Why",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "did",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "students",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "perform",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "poorly",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "writing",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "their",
+                "index": 8,
+                "isKeyword": false
+              },
+              {
+                "text": "first",
+                "index": 9,
+                "isKeyword": true
+              },
+              {
+                "text": "essay?",
+                "index": 10,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              2
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "They were not given enough time.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提及时间不够。文中只说作文「不足一页」，但没说是因为时间限制。",
+                "evidenceSentence": "",
+                "questionId": 1025
+              },
+              {
+                "id": "B",
+                "text": "They had a very limited vocabulary.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文反而说学生「could have written pages on the necessity of computers」——他们能写关于电脑的长文，说明词汇量不是问题。",
+                "evidenceSentence": "They could have written pages on the necessity of computers...",
+                "questionId": 1025
+              },
+              {
+                "id": "C",
+                "text": "They misunderstood the question.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "原文说「the problem was the question itself」（问题在于题目本身），而非学生误解题目。是题目不好导致学生没兴趣，不是学生理解错了。",
+                "evidenceSentence": "Then I realized that the problem was the question itself.",
+                "questionId": 1025
+              },
+              {
+                "id": "D",
+                "text": "They had little interest in the topic.",
+                "distractorType": "correct",
+                "distractorExplanation": "原文明确说「writing, in and of itself, simply didn't strike them as important」= 学生对写作本身不感兴趣 = 对题目缺乏兴趣。",
+                "evidenceSentence": "writing, in and of itself, simply didn't strike them as important.",
+                "questionId": 1025
+              }
+            ],
+            "correctAnswer": "D",
+            "passageAnnotations": [
+              "first essay",
+              "shocked",
+              "didn't strike them as important",
+              "the problem was the question itself"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"students\"（学生）、\"perform poorly\"（表现差）、\"first essay\"（第一篇作文）是核心定位词。",
+              "locationReasoning": "正确答案位于第二段。该段揭示根本原因：\"writing, in and of itself, simply didn't strike them as important\"——写作本身对他们来说不重要，即对题目缺乏兴趣。",
+              "exclusionReasoning": "A选项\"时间不够\"文中未提及。B选项\"词汇量有限\"文中未提及。C选项\"误解题目\"是干扰项：文中说\"问题在于题目本身\"，而非学生误解。",
+              "conclusion": "正确答案为 D。定位第二段 → 找到因果链：题目不好 → 学生对写作本身不感兴趣 → 表现差。",
+              "logicChain": [
+                "① 题干关键词定位：students + perform poorly + first essay → 第二段",
+                "② 文段扫描：P2 引出 first essay，描述结果差",
+                "③ 因果定位：problem was the question itself → 揭示根本原因",
+                "④ 关键句：\"didn't strike them as important\" = 不感兴趣",
+                "⑤ 判定：D ✓"
+              ]
+            }
+          },
+          {
+            "id": 1026,
+            "number": 26,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "What does the underlined word \"staggering\" in paragraph 3 mean?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "does",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "underlined",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "word",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "\"staggering\"",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "paragraph",
+                "index": 7,
+                "isKeyword": true
+              },
+              {
+                "text": "3",
+                "index": 8,
+                "isKeyword": true
+              },
+              {
+                "text": "mean?",
+                "index": 9,
+                "isKeyword": false
+              }
+            ],
+            "answerBlocks": [
+              3
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Mixed.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "staggering在上下文中不表示「mixed」（混杂的），上下文描述的是令人惊叹的积极结果。",
+                "evidenceSentence": "",
+                "questionId": 1026
+              },
+              {
+                "id": "B",
+                "text": "Amazing.",
+                "distractorType": "correct",
+                "distractorExplanation": "上下文全是积极描述：10-20页作文、拓宽视野、触动心灵——staggering意为amazing（令人惊叹的），与语境完美匹配。",
+                "evidenceSentence": "The students took on diverse topics and turned in stories, 10 to 20 pages each, with characters that broadened my view and touched my heart.",
+                "questionId": 1026
+              },
+              {
+                "id": "C",
+                "text": "Similar.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "staggering在上下文中不表示「similar」（相似的），语义完全不匹配。",
+                "evidenceSentence": "",
+                "questionId": 1026
+              },
+              {
+                "id": "D",
+                "text": "Disturbing.",
+                "distractorType": "opposite_direction",
+                "distractorExplanation": "staggering此处为褒义（令人惊叹），而disturbing为贬义（令人不安），与全文积极基调方向相反。",
+                "evidenceSentence": "The results were staggering.",
+                "questionId": 1026
+              }
+            ],
+            "correctAnswer": "B",
+            "passageAnnotations": [
+              "staggering",
+              "10 to 20 pages",
+              "broadened my view",
+              "touched my heart"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"underlined word\"（画线词）、\"staggering\"（目标词）、\"paragraph 3\"（第三段）是定位关键词。",
+              "locationReasoning": "\"Staggering\" 出现在第三段 \"The results were staggering.\"，上下文提供具体证据：学生写出了\"10 to 20 pages\" 的作文，人物\"broadened my view and touched my heart\"——表明结果是极其正向的。",
+              "exclusionReasoning": "A选项 Mixed 与正向语境不符。C选项 Similar 语义不匹配。D选项 Disturbing 为负向词，与全文积极基调相反。",
+              "conclusion": "正确答案为 B。staggering 在此处意为\"令人惊叹的\"，与上下文积极描述一致。",
+              "logicChain": [
+                "① 题干关键词定位：underlined word + staggering + paragraph 3 → 第三段",
+                "② 文段定位：P3 \"The results were staggering.\"",
+                "③ 上下文推断：10 to 20 pages、broadened view、touched heart",
+                "④ 语境判断：全段积极正向，排除负向选项",
+                "⑤ 判定：staggering = amazing B ✓"
+              ]
+            }
+          },
+          {
+            "id": 1027,
+            "number": 27,
+            "questionType": "main",
+            "locked": false,
+            "stem": "What does the author's experience show?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "does",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "author's",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "experience",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "show?",
+                "index": 5,
+                "isKeyword": false
+              }
+            ],
+            "answerBlocks": [
+              1,
+              4
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Teaching is learning.",
+                "distractorType": "correct",
+                "distractorExplanation": "作者本想教学生写作，却从学生身上学到了写作的真正意义——连接人与人、感同身受、理解人性。这正是「教学相长」。",
+                "evidenceSentence": "my students demonstrated something more important to me... the ability to connect people, to put us in another's skin, to teach us what it means to be human.",
+                "questionId": 1027
+              },
+              {
+                "id": "B",
+                "text": "Still waters run deep.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "「静水流深」与文章内容毫无关联。",
+                "evidenceSentence": "",
+                "questionId": 1027
+              },
+              {
+                "id": "C",
+                "text": "Knowledge is power.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "「知识就是力量」文中未涉及此主题。",
+                "evidenceSentence": "",
+                "questionId": 1027
+              },
+              {
+                "id": "D",
+                "text": "Practice makes perfect.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "文章重点不是「熟能生巧」而是「教学相长」——老师从学生身上获得启示。选项把「教学相长」偷换成了「练习出成绩」。",
+                "evidenceSentence": "This time they found the exercise much more interesting... The results were staggering.",
+                "questionId": 1027
+              }
+            ],
+            "correctAnswer": "A",
+            "passageAnnotations": [
+              "demonstrated something more important",
+              "connect people",
+              "another's skin",
+              "what it means to be human"
+            ],
+            "mainIdeaAnalysis": {
+              "referenceSummary": "作者通过教学经历认识到：写作最深刻的意义不在于交流，而在于连接人与人、换位思考、理解人性——即「教学相长」。",
+              "structureType": "reflective",
+              "thesisLocation": "last-paragraph",
+              "methodTips": {
+                "head-tail": "首段讲作者惊叹学生的创作力，尾段是主旨升华——\"students demonstrated something more important\"。首尾对比可见：作者从\"教写作\"转变为\"从学生身上学到的\"。",
+                "logic-chain": "前三题已覆盖：P1（学生角色）→ P2-3（改变命题→爆发创作力）→ 主旨自然浮现于P4。逻辑链：学生创作好 → 命题改变后爆发 → 作者反思：写作的真正意义是连接人性 → Teaching is learning。"
+              },
+              "distractorAnalysis": "B、C无中生有；D偷换概念——文章不是讲\"练习\"而是讲\"教学互动中的启示\"。"
+            },
+            "analysis": {
+              "keywordReasoning": "题干中 \"author's experience\"（作者的经历）、\"show\"（表明/说明）指向文章主旨。",
+              "locationReasoning": "正确答案位于第四段。作者从这段教学经历中获得了什么启示——教学相长。",
+              "exclusionReasoning": "B选项\"静水流深\"与文章无关。C选项\"知识就是力量\"文中未涉及。D选项\"熟能生巧\"是干扰项——文章重点不是练习次数，而是老师从学生身上获得启示。",
+              "conclusion": "正确答案为 A（Teaching is learning / 教学相长）。",
+              "logicChain": [
+                "① 题干关键词定位：author's experience + show → 寻找主旨",
+                "② 文段定位：P4 结尾总结段",
+                "③ 转折 — students demonstrated something more important",
+                "④ 学生教会作者 writing's true significance",
+                "⑤ 判定：老师从学生处学到更深刻的东西 → A ✓"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "microplastics",
+        "title": "Microplastics and Boiling Water",
+        "sourceInfo": "2025 全国I卷 · Passage D · Q32-35",
+        "paragraphs": [
+          {
+            "id": 5,
+            "sentences": [
+              {
+                "id": 17,
+                "text": "Microplastics have become a common source of pollution across the Earth — they have settled in the deep sea and on the Himalayas, stuck inside volcanic rocks, filled the stomachs of seabirds and even fallen in fresh Antarctic snow."
+              },
+              {
+                "id": 18,
+                "text": "They are even appearing inside humans."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "sentences": [
+              {
+                "id": 19,
+                "text": "Now, new research suggests that a simple, cheap measure may significantly reduce the level of microplastics in water from your tap: boiling and filtering it."
+              },
+              {
+                "id": 20,
+                "text": "In a study published Wednesday in Environmental Science & Technology Letters, researchers from China found that boiling tap water for just five minutes — then filtering it after it cools — could remove at least 80 percent of its microplastics."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "sentences": [
+              {
+                "id": 21,
+                "text": "Crucially, this process relies on the water containing enough calcium carbonate to trap the plastics."
+              },
+              {
+                "id": 22,
+                "text": "In the study, boiling hard water containing 300 milligrams of calcium carbonate led to an almost 90 percent drop in plastics."
+              },
+              {
+                "id": 23,
+                "text": "But in samples with less than 60 milligrams of calcium carbonate, boiling reduced the level of plastics by just 25 percent."
+              },
+              {
+                "id": 24,
+                "text": "Additionally, the research didn't include all types of plastics."
+              },
+              {
+                "id": 25,
+                "text": "The team focused only on three common types — polystyrene, polyethylene and polypropylene — and they didn't study other chemicals previously found in water such as vinyl chloride."
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "sentences": [
+              {
+                "id": 26,
+                "text": "Still, the findings show a potential path forward for reducing microplastic exposure — a task that's becoming increasingly difficult."
+              },
+              {
+                "id": 27,
+                "text": "Even bottled water, scientists found earlier this year, contains 10 to 1,000 times more microplastics than originally thought."
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "sentences": [
+              {
+                "id": 28,
+                "text": "Scientists are still trying to determine how harmful microplastics are — but what they do know has raised concerns."
+              },
+              {
+                "id": 29,
+                "text": "The new study suggests boiling tap water could be a tool to limit intake."
+              },
+              {
+                "id": 30,
+                "text": "\"The way they demonstrated how microplastics were trapped through the boiling process was nice,\" Caroline Gauchotte-Lindsay, an environmental engineer of the University of Glasgow in Scotland who was not involved in the research, tells New Scientist."
+              },
+              {
+                "id": 31,
+                "text": "\"We should be looking into upgrading drinking water treatment plants so they remove microplastics.\""
+              }
+            ]
+          }
+        ],
+        "passageStructure": {
+          "type": "expository",
+          "thesisLocation": "first-and-last",
+          "thesisSentence": "a simple, cheap measure may significantly reduce the level of microplastics in water from your tap: boiling and filtering it."
+        },
+        "passageSummary": [
+          {
+            "paragraphId": 1,
+            "summary": "微塑料污染无处不在——深海、高山、火山岩、海鸟胃、人体内。",
+            "keyInfo": "问题严重性 → 全球性污染"
+          },
+          {
+            "paragraphId": 2,
+            "summary": "新研究：煮沸+过滤可去除自来水中至少80%微塑料。",
+            "keyInfo": "解决方案 → boiling + filtering → 80% removal"
+          },
+          {
+            "paragraphId": 3,
+            "summary": "原理：碳酸钙包裹微塑料，硬水效果更好（90%），软水仅25%。",
+            "keyInfo": "机制 → calcium carbonate → hard water 更有效"
+          },
+          {
+            "paragraphId": 4,
+            "summary": "科学家认为虽危害未完全确定，但煮沸法是实用的减塑工具，应升级水处理。",
+            "keyInfo": "结论 → 实用工具 + 呼吁升级水处理"
+          }
+        ],
+        "questions": [
+          {
+            "id": 1032,
+            "number": 32,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "How does the author present the issue in the first paragraph?",
+            "stemTokens": [
+              {
+                "text": "How",
+                "index": 0,
+                "isKeyword": true
+              },
+              {
+                "text": "does",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "author",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "present",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "the",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "issue",
+                "index": 6,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 8,
+                "isKeyword": false
+              },
+              {
+                "text": "first",
+                "index": 9,
+                "isKeyword": true
+              },
+              {
+                "text": "paragraph?",
+                "index": 10,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              5
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "By quoting an expert.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "第一段没有引用任何专家的话，全是作者自己列举的事实。",
+                "evidenceSentence": "",
+                "questionId": 1032
+              },
+              {
+                "id": "B",
+                "text": "By defining a concept.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "第一段没有定义任何概念，而是列举微塑料污染的具体表现。",
+                "evidenceSentence": "",
+                "questionId": 1032
+              },
+              {
+                "id": "C",
+                "text": "By giving examples.",
+                "distractorType": "correct",
+                "distractorExplanation": "第一段通过列举微塑料污染的具体例子来呈现问题：深海、喜马拉雅山、火山岩、海鸟胃、南极新雪、人体内——全是具体实例。",
+                "evidenceSentence": "they have settled in the deep sea and on the Himalayas, stuck inside volcanic rocks, filled the stomachs of seabirds and even fallen in fresh Antarctic snow. They are even appearing inside humans.",
+                "questionId": 1032
+              },
+              {
+                "id": "D",
+                "text": "By providing statistics.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "第一段没有提供任何统计数据，只有列举具体地点和现象。",
+                "evidenceSentence": "",
+                "questionId": 1032
+              }
+            ],
+            "correctAnswer": "C",
+            "passageAnnotations": [
+              "deep sea",
+              "Himalayas",
+              "volcanic rocks",
+              "seabirds",
+              "Antarctic snow",
+              "inside humans"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"How\"（方式）、\"author\"（作者）、\"present\"（呈现）、\"issue\"（问题）、\"first paragraph\"（第一段）是定位关键词。",
+              "locationReasoning": "第一段通过列举6个具体地点/现象（深海、喜马拉雅、火山岩、海鸟、南极、人体）呈现微塑料污染问题，这是典型的举例论证手法。",
+              "exclusionReasoning": "A选项引用专家：P1无任何专家引用。B选项定义概念：P1没有定义什么是微塑料。D选项提供统计：P1没有任何数字数据。",
+              "conclusion": "正确答案为 C（By giving examples / 通过举例）。第一段用6个具体实例呈现微塑料无处不在的严重性。",
+              "logicChain": [
+                "① 题干关键词定位：How + present + issue + first paragraph → P1写作手法",
+                "② 文段扫描：P1 列举6个具体地点/现象（深海→喜马拉雅→火山岩→海鸟→南极→人体）",
+                "③ 手法判断：这些是具体实例 = examples",
+                "④ 选项排除：A无专家引用，B无概念定义，D无统计数据",
+                "⑤ 判定：C. By giving examples ✓"
+              ]
+            }
+          },
+          {
+            "id": 1033,
+            "number": 33,
+            "questionType": "detail",
+            "locked": false,
+            "stem": "What determines the effectiveness of trapping microplastics in water?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "determines",
+                "index": 1,
+                "isKeyword": true
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "effectiveness",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "of",
+                "index": 4,
+                "isKeyword": false
+              },
+              {
+                "text": "trapping",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "microplastics",
+                "index": 6,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "water?",
+                "index": 8,
+                "isKeyword": false
+              }
+            ],
+            "answerBlocks": [
+              7
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "The hardness of water.",
+                "distractorType": "correct",
+                "distractorExplanation": "文中明确说截留微塑料依赖水中碳酸钙含量（calcium carbonate），300mg截留90%，60mg只截留25%——碳酸钙含量就是水的硬度。",
+                "evidenceSentence": "Crucially, this process relies on the water containing enough calcium carbonate to trap the plastics. In the study, boiling hard water containing 300 milligrams of calcium carbonate led to an almost 90 percent drop in plastics.",
+                "questionId": 1033
+              },
+              {
+                "id": "B",
+                "text": "The length of cooling time.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提及冷却时间长短影响截留效果。",
+                "evidenceSentence": "",
+                "questionId": 1033
+              },
+              {
+                "id": "C",
+                "text": "The frequency of filtering.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提及过滤频率影响截留效果。",
+                "evidenceSentence": "",
+                "questionId": 1033
+              },
+              {
+                "id": "D",
+                "text": "The type of plastic in water.",
+                "distractorType": "scope_shift",
+                "distractorExplanation": "原文确实提到研究只聚焦3种塑料类型，但这是研究的局限，不是截留效果的决定因素。决定因素是水的硬度（碳酸钙含量），选项把「研究局限」偷换成了「效果决定因素」。",
+                "evidenceSentence": "The team focused only on three common types — polystyrene, polyethylene and polypropylene",
+                "questionId": 1033
+              }
+            ],
+            "correctAnswer": "A",
+            "passageAnnotations": [
+              "calcium carbonate",
+              "hard water",
+              "300 milligrams",
+              "90 percent",
+              "60 milligrams",
+              "25 percent"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"determines\"（决定因素）、\"effectiveness\"（有效性）、\"trapping microplastics\"（截留微塑料）是定位关键词。",
+              "locationReasoning": "第三段明确说：截留效果取决于水中碳酸钙含量。硬水（300mg）截留90%，低钙水（60mg）只截留25%——碳酸钙含量 = 水的硬度。",
+              "exclusionReasoning": "B选项冷却时间：文中未提及。C选项过滤频率：文中未提及。D选项塑料类型：这是研究局限而非效果决定因素。",
+              "conclusion": "正确答案为 A（The hardness of water / 水的硬度）。碳酸钙含量 = 水硬度 = 截留效果的决定因素。",
+              "logicChain": [
+                "① 题干关键词定位：determines + effectiveness + trapping microplastics → P3",
+                "② 关键句：「Crucially, this process relies on the water containing enough calcium carbonate」",
+                "③ 数据对比：300mg→90%，60mg→25%",
+                "④ 碳酸钙含量 = 水的硬度（hardness）",
+                "⑤ 判定：A. The hardness of water ✓"
+              ]
+            }
+          },
+          {
+            "id": 1034,
+            "number": 34,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "What does the author try to illustrate by mentioning bottled water in paragraph 4?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "does",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "author",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "try",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "to",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "illustrate",
+                "index": 6,
+                "isKeyword": true
+              },
+              {
+                "text": "by",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "mentioning",
+                "index": 8,
+                "isKeyword": true
+              },
+              {
+                "text": "bottled",
+                "index": 9,
+                "isKeyword": true
+              },
+              {
+                "text": "water",
+                "index": 10,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 11,
+                "isKeyword": false
+              },
+              {
+                "text": "paragraph",
+                "index": 12,
+                "isKeyword": true
+              },
+              {
+                "text": "4?",
+                "index": 13,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              8
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "The importance of plastic recycling.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有提到回收的重要性，瓶装水的例子是为了说明微塑料问题的严重性。",
+                "evidenceSentence": "",
+                "questionId": 1034
+              },
+              {
+                "id": "B",
+                "text": "The severity of the microplastic problem.",
+                "distractorType": "correct",
+                "distractorExplanation": "作者提到瓶装水含10到1000倍于预期的微塑料，是为了强调微塑料问题无处不在且极其严重——连瓶装水这种「干净」的水都充满了微塑料。",
+                "evidenceSentence": "Even bottled water, scientists found earlier this year, contains 10 to 1,000 times more microplastics than originally thought.",
+                "questionId": 1034
+              },
+              {
+                "id": "C",
+                "text": "The danger in overusing pure water.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有讨论过度使用纯净水的危害，讨论的是微塑料污染问题。",
+                "evidenceSentence": "",
+                "questionId": 1034
+              },
+              {
+                "id": "D",
+                "text": "The difficulty in treating polluted water.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "瓶装水例子的目的是说明问题的严重性（severity），而非治疗难度（difficulty）。选项把「问题有多严重」偷换成了「治疗有多难」。",
+                "evidenceSentence": "Still, the findings show a potential path forward for reducing microplastic exposure — a task that's becoming increasingly difficult.",
+                "questionId": 1034
+              }
+            ],
+            "correctAnswer": "B",
+            "passageAnnotations": [
+              "bottled water",
+              "10 to 1,000 times more",
+              "increasingly difficult"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"author\"（作者）、\"illustrate\"（说明/阐明）、\"bottled water\"（瓶装水）、\"paragraph 4\"（第四段）是定位关键词。",
+              "locationReasoning": "第四段说：减少微塑料接触的任务「increasingly difficult」，紧接着用瓶装水数据（10-1000倍）作为证据说明问题有多严重。",
+              "exclusionReasoning": "A选项回收重要性：文中未提及。C选项过度使用纯净水：文中未讨论。D选项治疗难度：这是对「increasingly difficult」的错误理解——文中说的是任务困难，但瓶装水例子说明的是严重性。",
+              "conclusion": "正确答案为 B（The severity of the microplastic problem / 微塑料问题的严重性）。瓶装水含10-1000倍微塑料 = 问题远比想象严重。",
+              "logicChain": [
+                "① 题干关键词定位：author + illustrate + bottled water + paragraph 4 → P4",
+                "② 文段定位：P4 提到瓶装水含10-1000倍微塑料",
+                "③ 功能判断：这是用来支撑「increasingly difficult」的证据",
+                "④ 逻辑：连瓶装水都有如此多微塑料 → 问题极其严重",
+                "⑤ 判定：B. The severity of the problem ✓"
+              ]
+            }
+          },
+          {
+            "id": 1035,
+            "number": 35,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "What is Gauchotte-Lindsay's suggestion about?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "is",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "Gauchotte-Lindsay's",
+                "index": 2,
+                "isKeyword": true
+              },
+              {
+                "text": "suggestion",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "about?",
+                "index": 4,
+                "isKeyword": false
+              }
+            ],
+            "answerBlocks": [
+              9
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Choice of new research methods.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "Gauchotte-Lindsay没有建议选择新的研究方法，她建议的是升级水处理设施。",
+                "evidenceSentence": "",
+                "questionId": 1035
+              },
+              {
+                "id": "B",
+                "text": "Possible direction for further study.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "Gauchotte-Lindsay说的是「should be looking into upgrading drinking water treatment plants」，这是关于应用而非研究方向。选项把「实际应用」偷换成了「研究方向」。",
+                "evidenceSentence": "\"We should be looking into upgrading drinking water treatment plants so they remove microplastics.\"",
+                "questionId": 1035
+              },
+              {
+                "id": "C",
+                "text": "Need to involve more researchers.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "Gauchotte-Lindsay没有提到需要更多研究人员参与。",
+                "evidenceSentence": "",
+                "questionId": 1035
+              },
+              {
+                "id": "D",
+                "text": "Potential application of the findings.",
+                "distractorType": "correct",
+                "distractorExplanation": "Gauchotte-Lindsay建议升级饮用水处理厂来去除微塑料——这是将研究结果应用于实际水处理设施的潜在应用。",
+                "evidenceSentence": "\"We should be looking into upgrading drinking water treatment plants so they remove microplastics.\"",
+                "questionId": 1035
+              }
+            ],
+            "correctAnswer": "D",
+            "passageAnnotations": [
+              "upgrading drinking water treatment plants",
+              "remove microplastics"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"Gauchotte-Lindsay's\"（人名定位）、\"suggestion\"（建议）是定位关键词。",
+              "locationReasoning": "第五段末：Gauchotte-Lindsay建议「upgrading drinking water treatment plants so they remove microplastics」——将研究成果应用于水处理设施的升级。",
+              "exclusionReasoning": "A选项研究方法：她没提研究方法。B选项研究方向：她说的是实际应用而非研究方向。C选项更多研究人员：她没提人员问题。",
+              "conclusion": "正确答案为 D（Potential application of the findings / 研究结果的潜在应用）。升级水处理厂 = 将煮沸法原理应用于规模化水处理。",
+              "logicChain": [
+                "① 题干关键词定位：Gauchotte-Lindsay + suggestion → P5末",
+                "② 文段定位：\"upgrading drinking water treatment plants\"",
+                "③ 判断：升级水处理厂 = 将研究成果规模化应用",
+                "④ 排除：A研究方法、B研究方向、C人员 = 均不符",
+                "⑤ 判定：D. Potential application ✓"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-n1",
+    "name": "2026 全国I卷",
+    "year": 2026,
+    "description": "2026年高考英语全国I卷阅读理解",
+    "passages": [
+      {
+        "id": "dictionary-learning",
+        "title": "Learning with a Dictionary",
+        "sourceInfo": "2026 全国I卷 · Passage B · Q24-27",
+        "paragraphs": [
+          {
+            "id": 10,
+            "sentences": [
+              {
+                "id": 32,
+                "text": "Not long ago, my fifth-grade son Kevin asked me about the meaning of a word in a novel."
+              },
+              {
+                "id": 33,
+                "text": "\"Look it up,\" I responded."
+              },
+              {
+                "id": 34,
+                "text": "\"But my screen time is off,\" he said."
+              },
+              {
+                "id": 35,
+                "text": "I looked pointedly at the bookshelf that held at least three dictionaries, and Kevin sighed dramatically."
+              },
+              {
+                "id": 36,
+                "text": "\"Can't you just use your phone?\" he asked."
+              },
+              {
+                "id": 37,
+                "text": "Suddenly it occurred to me that he did not even know how to use a dictionary."
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "sentences": [
+              {
+                "id": 38,
+                "text": "I took down one of the dictionaries, and we read it together for a few minutes before I handed it to him."
+              },
+              {
+                "id": 39,
+                "text": "It took him a few tries to find the word in question."
+              },
+              {
+                "id": 40,
+                "text": "While going through the pages, he kept saying, wide-eyed: \"How can there be this many words?\""
+              },
+              {
+                "id": 41,
+                "text": "After a while, he looked at me and asked, \"Do you know all these words, Mom?\""
+              },
+              {
+                "id": 42,
+                "text": "I smiled."
+              },
+              {
+                "id": 43,
+                "text": "\"I definitely do not know all these words,\" I said."
+              },
+              {
+                "id": 44,
+                "text": "\"But that's why this is one of my favorite books.\""
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "sentences": [
+              {
+                "id": 45,
+                "text": "I had my first dictionary as a gift for my 13th birthday."
+              },
+              {
+                "id": 46,
+                "text": "I decided that I wanted to learn as many words as I could and started marking every entry I looked up with a pencil to measure my progress."
+              },
+              {
+                "id": 47,
+                "text": "I continued to make these pencil marks for years, and when I went off to college, I packed that dictionary in my suitcase."
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "sentences": [
+              {
+                "id": 48,
+                "text": "Kevin wanted to see the dictionary."
+              },
+              {
+                "id": 49,
+                "text": "I felt a small pain in my chest."
+              },
+              {
+                "id": 50,
+                "text": "The dictionary was stolen at the end of my freshman year of college."
+              },
+              {
+                "id": 51,
+                "text": "\"That's so sad,\" he said, \"but you still know all those words, even without the book.\""
+              },
+              {
+                "id": 52,
+                "text": "I realized that this was true."
+              },
+              {
+                "id": 53,
+                "text": "I still made it through the next three years of college, even without the book."
+              },
+              {
+                "id": 54,
+                "text": "And it wasn't, ultimately, the dictionary that got me there — not really."
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "sentences": [
+              {
+                "id": 55,
+                "text": "Now I understand that although my son may be learning differently, he is still learning."
+              },
+              {
+                "id": 56,
+                "text": "It's not about the words themselves or how we learn them, but the wanting to know them, the curiosity and the appetite."
+              }
+            ]
+          }
+        ],
+        "passageStructure": {
+          "type": "reflective",
+          "thesisLocation": "last-paragraph",
+          "thesisSentence": "It's not about the words themselves or how we learn them, but the wanting to know them, the curiosity and the appetite."
+        },
+        "passageSummary": [
+          {
+            "paragraphId": 1,
+            "summary": "儿子Kevin查词方式多样——问人、猜、查手机，但不翻字典。",
+            "keyInfo": "对比：儿子的方式 vs 作者的方式"
+          },
+          {
+            "paragraphId": 2,
+            "summary": "作者回忆自己儿时字典是权威，不翻字典=不学习。",
+            "keyInfo": "代际差异 → 字典=权威"
+          },
+          {
+            "paragraphId": 3,
+            "summary": "作者13岁生日得到字典，开始标注每个查过的词，带到大学。",
+            "keyInfo": "作者的字典情结 → marking entries"
+          },
+          {
+            "paragraphId": 4,
+            "summary": "字典在大学被偷，儿子说\"但你还是学会了那些词\"。作者恍然大悟。",
+            "keyInfo": "转折 → 丢字典 → 顿悟"
+          },
+          {
+            "paragraphId": 5,
+            "summary": "主旨：重要的不是单词本身或学习方式，而是求知欲和好奇心。",
+            "keyInfo": "主旨：curiosity and appetite > words/methods"
+          }
+        ],
+        "questions": [
+          {
+            "id": 2024,
+            "number": 24,
+            "questionType": "detail",
+            "locked": false,
+            "stem": "What does Kevin usually do to get the meaning of a word?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "does",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "Kevin",
+                "index": 2,
+                "isKeyword": true
+              },
+              {
+                "text": "usually",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "do",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "to",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "get",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "meaning",
+                "index": 8,
+                "isKeyword": true
+              },
+              {
+                "text": "of",
+                "index": 9,
+                "isKeyword": false
+              },
+              {
+                "text": "a",
+                "index": 10,
+                "isKeyword": false
+              },
+              {
+                "text": "word?",
+                "index": 11,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              10
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Use electronic devices.",
+                "distractorType": "correct",
+                "distractorExplanation": "Kevin说\"my screen time is off\"和\"Can't you just use your phone?\"——他平时用电子设备查词义，只是这次屏幕时间被关了才被迫用词典。",
+                "evidenceSentence": "\"But my screen time is off,\" he said... \"Can't you just use your phone?\" he asked.",
+                "questionId": 2024
+              },
+              {
+                "id": "B",
+                "text": "Consult a paper dictionary.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "Kevin连怎么用词典都不知道（\"he did not even know how to use a dictionary\"），所以平时不可能用纸质词典查词。",
+                "evidenceSentence": "",
+                "questionId": 2024
+              },
+              {
+                "id": "C",
+                "text": "Guess from the context.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有提到Kevin通过上下文猜测词义。他直接问妈妈词的意思。",
+                "evidenceSentence": "",
+                "questionId": 2024
+              },
+              {
+                "id": "D",
+                "text": "Turn to his English teacher.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有提到Kevin向英语老师求助，他是问妈妈。",
+                "evidenceSentence": "",
+                "questionId": 2024
+              }
+            ],
+            "correctAnswer": "A",
+            "passageAnnotations": [
+              "screen time",
+              "use your phone",
+              "dictionary",
+              "look it up"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"Kevin\"（人名定位）、\"usually\"（平时/习惯）、\"get the meaning\"（查词义）是定位关键词。",
+              "locationReasoning": "第一段：Kevin说\"my screen time is off\"和\"Can't you just use your phone?\"——他平时用手机/电子设备查词义。",
+              "exclusionReasoning": "B选项纸质词典：Kevin不懂怎么用词典。C选项上下文猜测：原文未提及。D选项英语老师：原文未提及。",
+              "conclusion": "正确答案为 A（Use electronic devices / 用电子设备）。Kevin平时用手机查词义。",
+              "logicChain": [
+                "① 题干关键词定位：Kevin + usually + get meaning → P1",
+                "② 文段扫描：\"my screen time is off\" \"Can't you just use your phone?\"",
+                "③ 推断：Kevin平时用电子设备查词义",
+                "④ 排除：B他不懂词典，C/D原文未提及",
+                "⑤ 判定：A. Use electronic devices ✓"
+              ]
+            }
+          },
+          {
+            "id": 2025,
+            "number": 25,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "How did Kevin feel while looking up the word in the dictionary?",
+            "stemTokens": [
+              {
+                "text": "How",
+                "index": 0,
+                "isKeyword": true
+              },
+              {
+                "text": "did",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "Kevin",
+                "index": 2,
+                "isKeyword": true
+              },
+              {
+                "text": "feel",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "while",
+                "index": 4,
+                "isKeyword": false
+              },
+              {
+                "text": "looking",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "up",
+                "index": 6,
+                "isKeyword": true
+              },
+              {
+                "text": "the",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "word",
+                "index": 8,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 9,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 10,
+                "isKeyword": false
+              },
+              {
+                "text": "dictionary?",
+                "index": 11,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              11
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Annoyed.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "Kevin翻词典时是wide-eyed（瞪大眼睛）惊叹\"How can there be this many words?\"，不是烦恼。",
+                "evidenceSentence": "",
+                "questionId": 2025
+              },
+              {
+                "id": "B",
+                "text": "Disappointed.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "Kevin翻词典时感到惊讶而非失望。",
+                "evidenceSentence": "",
+                "questionId": 2025
+              },
+              {
+                "id": "C",
+                "text": "Encouraged.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "Kevin翻词典时是惊讶而非受到鼓励，\"wide-eyed\"表示的是震惊而非鼓舞。",
+                "evidenceSentence": "",
+                "questionId": 2025
+              },
+              {
+                "id": "D",
+                "text": "Astonished.",
+                "distractorType": "correct",
+                "distractorExplanation": "Kevin翻词典时wide-eyed（瞪大眼睛）并惊叹\"How can there be this many words?\"——这是典型的惊讶/震惊表现。",
+                "evidenceSentence": "While going through the pages, he kept saying, wide-eyed: \"How can there be this many words?\"",
+                "questionId": 2025
+              }
+            ],
+            "correctAnswer": "D",
+            "passageAnnotations": [
+              "wide-eyed",
+              "How can there be this many words",
+              "looked at me and asked"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"How\"（方式）、\"Kevin\"（人名）、\"feel\"（感受）、\"looking up\"（翻查）是定位关键词。",
+              "locationReasoning": "第二段：Kevin翻词典时\"wide-eyed\"惊叹\"How can there be this many words?\"——这是惊讶/震惊（astonished）的表现。",
+              "exclusionReasoning": "A选项Annoyed（烦恼）：他不是烦恼而是惊叹。B选项Disappointed（失望）：没有失望的表现。C选项Encouraged（受到鼓励）：wide-eyed表示震惊而非鼓励。",
+              "conclusion": "正确答案为 D（Astonished / 惊讶）。wide-eyed + \"How can there be this many words?\" = astonished。",
+              "logicChain": [
+                "① 题干关键词定位：Kevin + feel + looking up → P2",
+                "② 文段扫描：\"wide-eyed\" \"How can there be this many words?\"",
+                "③ 推断：wide-eyed = 瞪大眼睛 = 惊讶",
+                "④ 排除：A烦恼/B失望/C鼓励 = 均不符",
+                "⑤ 判定：D. Astonished ✓"
+              ]
+            }
+          },
+          {
+            "id": 2026,
+            "number": 26,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "What can we learn about the author's first dictionary?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "can",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "we",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "learn",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "about",
+                "index": 4,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "author's",
+                "index": 6,
+                "isKeyword": true
+              },
+              {
+                "text": "first",
+                "index": 7,
+                "isKeyword": true
+              },
+              {
+                "text": "dictionary?",
+                "index": 8,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              12
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "It helped her through college.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "作者明确说\"it wasn't, ultimately, the dictionary that got me there\"——词典并没有帮她度过大学，是她自己的好奇心和学习动力。选项把「好奇心驱动」偷换成了「词典帮助」。",
+                "evidenceSentence": "And it wasn't, ultimately, the dictionary that got me there — not really.",
+                "questionId": 2026
+              },
+              {
+                "id": "B",
+                "text": "It was given to Kevin as a gift.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提到词典被送给Kevin。Kevin只是想看词典，但词典早在大学时就被偷了。",
+                "evidenceSentence": "",
+                "questionId": 2026
+              },
+              {
+                "id": "C",
+                "text": "It bore witness to her efforts.",
+                "distractorType": "correct",
+                "distractorExplanation": "作者\"started marking every entry I looked up with a pencil to measure my progress\"并\"continued to make these pencil marks for years\"——铅笔标记见证了她的努力历程。",
+                "evidenceSentence": "I started marking every entry I looked up with a pencil to measure my progress. I continued to make these pencil marks for years.",
+                "questionId": 2026
+              },
+              {
+                "id": "D",
+                "text": "It was a valuable limited edition.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提到词典是限量版或特别珍贵的版本。词典只是13岁生日礼物。",
+                "evidenceSentence": "",
+                "questionId": 2026
+              }
+            ],
+            "correctAnswer": "C",
+            "passageAnnotations": [
+              "first dictionary",
+              "gift for my 13th birthday",
+              "marking every entry",
+              "pencil marks",
+              "measure my progress"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"learn\"（了解/推断）、\"author's first dictionary\"（作者的词典）是定位关键词。",
+              "locationReasoning": "第三段描述作者的词典使用经历：用铅笔标记每个查过的词条来衡量进步，持续多年——这些标记见证了她的学习努力。",
+              "exclusionReasoning": "A选项帮助她度过大学：作者明确否认。B选项送给Kevin：原文未提及。D选项限量版：原文未提及。",
+              "conclusion": "正确答案为 C（It bore witness to her efforts / 它见证了她的努力）。铅笔标记 = 学习努力的证据。",
+              "logicChain": [
+                "① 题干关键词定位：author's first dictionary → P3+P4",
+                "② P3：用铅笔标记每个词条衡量进步",
+                "③ P4：\"it wasn't the dictionary that got me there\" 否定A",
+                "④ 判断：铅笔标记见证了努力 = bore witness to efforts",
+                "⑤ 判定：C ✓"
+              ]
+            }
+          },
+          {
+            "id": 2027,
+            "number": 27,
+            "questionType": "main",
+            "locked": false,
+            "stem": "What has the author come to realize about learning?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "has",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "author",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "come",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "to",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "realize",
+                "index": 6,
+                "isKeyword": true
+              },
+              {
+                "text": "about",
+                "index": 7,
+                "isKeyword": false
+              },
+              {
+                "text": "learning?",
+                "index": 8,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              10,
+              14
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "It is never too late to start.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有讨论\"何时开始\"的问题，讨论的是学习动力的本质。",
+                "evidenceSentence": "",
+                "questionId": 2027
+              },
+              {
+                "id": "B",
+                "text": "Motivation is what really matters.",
+                "distractorType": "correct",
+                "distractorExplanation": "作者结尾说\"It's not about the words themselves or how we learn them, but the wanting to know them, the curiosity and the appetite\"——学习的关键不是工具或方式，而是好奇心和求知欲（动力）。",
+                "evidenceSentence": "It's not about the words themselves or how we learn them, but the wanting to know them, the curiosity and the appetite.",
+                "questionId": 2027
+              },
+              {
+                "id": "C",
+                "text": "Children need role models.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有提到孩子需要榜样。",
+                "evidenceSentence": "",
+                "questionId": 2027
+              },
+              {
+                "id": "D",
+                "text": "Dictionaries are still a useful tool.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "作者明确说学习的关键不在工具（\"not about... how we learn them\"），而在动力。选项把「动力最重要」偷换成了「词典仍然有用」。",
+                "evidenceSentence": "It's not about the words themselves or how we learn them, but the wanting to know them...",
+                "questionId": 2027
+              }
+            ],
+            "correctAnswer": "B",
+            "passageAnnotations": [
+              "wanting to know them",
+              "curiosity",
+              "appetite",
+              "not about the words themselves"
+            ],
+            "mainIdeaAnalysis": {
+              "referenceSummary": "作者通过对比自己（依赖字典）和儿子（不翻字典但同样在学习）的方式，意识到学习的关键不在工具或方法，而在求知欲和好奇心——动力才是本质。",
+              "structureType": "reflective",
+              "thesisLocation": "last-paragraph",
+              "methodTips": {
+                "head-tail": "首段讲儿子不翻字典的多样化查词方式，尾段总结\"It's not about the words themselves... but the wanting to know them\"。首尾对比：从\"方式差异\"到\"动力才是本质\"。",
+                "logic-chain": "前三题已覆盖：P1（儿子方式）→ P2-3（作者字典情结）→ P4（丢字典顿悟）→ P5主旨浮现。逻辑链：方式不同 → 丢字典后仍学会 → 顿悟：动力 > 工具 → Motivation matters。"
+              },
+              "distractorAnalysis": "A、C无中生有；D偷换概念——作者说\"不在工具\"，D却说\"工具仍有用\"，方向相反。"
+            },
+            "analysis": {
+              "keywordReasoning": "题干中 \"author\"（作者）、\"realize\"（意识到）、\"learning\"（学习）指向文章主旨。",
+              "locationReasoning": "第五段结尾：作者总结学习的关键是\"wanting to know them, the curiosity and the appetite\"——动力比工具更重要。",
+              "exclusionReasoning": "A选项何时开始：原文未讨论。C选项榜样：原文未提及。D选项词典有用：作者明确否定工具的重要性。",
+              "conclusion": "正确答案为 B（Motivation is what really matters / 动力才是关键）。好奇心和求知欲 > 工具和方式。",
+              "logicChain": [
+                "① 题干关键词定位：author + realize + learning → P5结尾",
+                "② 关键句：\"the wanting to know them, the curiosity and the appetite\"",
+                "③ 判断：学习的核心 = 动力（curiosity + appetite）",
+                "④ 排除：A/D与核心论点矛盾，C原文未提",
+                "⑤ 判定：B ✓"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "art-cognitive",
+        "title": "Art and Abstract Thinking",
+        "sourceInfo": "2026 全国I卷 · Passage D · Q32-35",
+        "paragraphs": [
+          {
+            "id": 15,
+            "sentences": [
+              {
+                "id": 57,
+                "text": "A team of Cambridge psychologists conducted an experiment to compare the cognitive effects of merely seeing art with actively judging how beautiful it is."
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "sentences": [
+              {
+                "id": 58,
+                "text": "In the study, 187 people were invited to visit Kettle's Yard gallery during an exhibition of handmade clay objects."
+              },
+              {
+                "id": 59,
+                "text": "Participants were randomly divided into two groups: the \"beauty\" group was asked to actively consider and then rate the beauty of each object they viewed, while the control group just matched a line drawing of the object with the artwork itself."
+              },
+              {
+                "id": 60,
+                "text": "All participants were then tested on how they process information, and whether it's in a more practical or abstract way."
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "sentences": [
+              {
+                "id": 61,
+                "text": "Across all participants, those in the beauty group scored almost 14% higher on average than the control group in abstract thinking."
+              },
+              {
+                "id": 62,
+                "text": "While they were told the study was about cognitive processes, participants were asked about interests, with around half saying they had an artistic hobby."
+              },
+              {
+                "id": 63,
+                "text": "Among those, the effect was greater: those with an artistic hobby in the beauty group scored over 25% higher on average for abstract thinking than those with an artistic hobby in the control group."
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "sentences": [
+              {
+                "id": 64,
+                "text": "Emotional states of participants were also measured by asking about their feelings while completing the gallery task."
+              },
+              {
+                "id": 65,
+                "text": "Across all participants, those in the beauty group reported an average of 23% higher levels of \"transformative and self-transcendent feelings\" — such as feeling moved, enlightened and inspired — than the control group."
+              },
+              {
+                "id": 66,
+                "text": "Importantly, however, the beauty group did not report feeling any happier than the control group, suggesting that it was the engagement with beauty that influenced abstract thinking, rather than any overall positivity from the experience."
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "sentences": [
+              {
+                "id": 67,
+                "text": "\"We usually think in very concrete terms when doing something on a screen,\" said Simone Schnall, senior author of the study."
+              },
+              {
+                "id": 68,
+                "text": "\"It's becoming much rarer to zone out and just let the mind wander, but that's when we think in ways that broaden our minds."
+              },
+              {
+                "id": 69,
+                "text": "Admiring the beauty of art may be the ideal way to initiate the abstract cognitive processes.\""
+              }
+            ]
+          }
+        ],
+        "passageStructure": {
+          "type": "expository",
+          "thesisLocation": "last-paragraph",
+          "thesisSentence": "Admiring the beauty of art may be the ideal way to initiate the abstract cognitive processes."
+        },
+        "passageSummary": [
+          {
+            "paragraphId": 1,
+            "summary": "研究背景：屏幕时代让人偏向具体思维，艺术能否促进抽象思维？",
+            "keyInfo": "问题提出 → screen vs art → abstract thinking"
+          },
+          {
+            "paragraphId": 2,
+            "summary": "实验设计：美丽组评价陶土之美，对照组关注功能，随后测试抽象思维。",
+            "keyInfo": "方法 → beauty group vs control group"
+          },
+          {
+            "paragraphId": 3,
+            "summary": "结果：美丽组抽象思维得分更高，且不是因为心情好。",
+            "keyInfo": "结果 → beauty → abstract thinking ↑"
+          },
+          {
+            "paragraphId": 4,
+            "summary": "排除替代解释：不是因为整体情绪更好，而是与美互动本身。",
+            "keyInfo": "排除 → 不是positivity，是engagement with beauty"
+          },
+          {
+            "paragraphId": 5,
+            "summary": "主旨：欣赏艺术之美是启动抽象认知过程的理想方式。",
+            "keyInfo": "主旨 → art beauty → abstract cognition"
+          }
+        ],
+        "questions": [
+          {
+            "id": 2032,
+            "number": 32,
+            "questionType": "detail",
+            "locked": false,
+            "stem": "What was the beauty group asked to do with the clay objects?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "was",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "beauty",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "group",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "asked",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "to",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "do",
+                "index": 7,
+                "isKeyword": true
+              },
+              {
+                "text": "with",
+                "index": 8,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 9,
+                "isKeyword": false
+              },
+              {
+                "text": "clay",
+                "index": 10,
+                "isKeyword": true
+              },
+              {
+                "text": "objects?",
+                "index": 11,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              16
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Draw their outlines.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "画轮廓是对照组做的事（\"matched a line drawing\"），不是beauty组。选项把对照组的任务偷换给了beauty组。",
+                "evidenceSentence": "the control group just matched a line drawing of the object with the artwork itself.",
+                "questionId": 2032
+              },
+              {
+                "id": "B",
+                "text": "Give each piece a rating.",
+                "distractorType": "correct",
+                "distractorExplanation": "beauty组被要求\"actively consider and then rate the beauty of each object\"——即给每个作品评分。",
+                "evidenceSentence": "the \"beauty\" group was asked to actively consider and then rate the beauty of each object they viewed",
+                "questionId": 2032
+              },
+              {
+                "id": "C",
+                "text": "Compare their prices.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提到比较价格，研究是关于认知效果而非经济价值。",
+                "evidenceSentence": "",
+                "questionId": 2032
+              },
+              {
+                "id": "D",
+                "text": "Make a copy of each piece.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文从未提到制作复制品，研究任务是评价美感和匹配线条图。",
+                "evidenceSentence": "",
+                "questionId": 2032
+              }
+            ],
+            "correctAnswer": "B",
+            "passageAnnotations": [
+              "beauty group",
+              "actively consider",
+              "rate the beauty",
+              "each object"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"beauty group\"（beauty组）、\"asked to do\"（被要求做什么）、\"clay objects\"（陶土作品）是定位关键词。",
+              "locationReasoning": "第二段：beauty组被要求\"actively consider and then rate the beauty of each object\"——主动思考并评分。",
+              "exclusionReasoning": "A选项画轮廓：这是对照组的任务。C选项比较价格：原文未提及。D选项制作复制品：原文未提及。",
+              "conclusion": "正确答案为 B（Give each piece a rating / 给每个作品评分）。",
+              "logicChain": [
+                "① 题干关键词定位：beauty group + clay objects → P2",
+                "② 文段扫描：\"actively consider and then rate the beauty\"",
+                "③ 判断：rate = 给评分",
+                "④ 排除：A是对照组任务，C/D原文未提及",
+                "⑤ 判定：B ✓"
+              ]
+            }
+          },
+          {
+            "id": 2033,
+            "number": 33,
+            "questionType": "detail",
+            "locked": false,
+            "stem": "Which participants got the highest score on average in the test?",
+            "stemTokens": [
+              {
+                "text": "Which",
+                "index": 0,
+                "isKeyword": true
+              },
+              {
+                "text": "participants",
+                "index": 1,
+                "isKeyword": true
+              },
+              {
+                "text": "got",
+                "index": 2,
+                "isKeyword": true
+              },
+              {
+                "text": "the",
+                "index": 3,
+                "isKeyword": false
+              },
+              {
+                "text": "highest",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "score",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "on",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "average",
+                "index": 7,
+                "isKeyword": true
+              },
+              {
+                "text": "in",
+                "index": 8,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 9,
+                "isKeyword": false
+              },
+              {
+                "text": "test?",
+                "index": 10,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              17
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "Beauty group, with an artistic hobby.",
+                "distractorType": "correct",
+                "distractorExplanation": "文中明确说\"those with an artistic hobby in the beauty group scored over 25% higher on average for abstract thinking\"——这是最高分数组合。",
+                "evidenceSentence": "those with an artistic hobby in the beauty group scored over 25% higher on average for abstract thinking than those with an artistic hobby in the control group.",
+                "questionId": 2033
+              },
+              {
+                "id": "B",
+                "text": "Beauty group, without an artistic hobby.",
+                "distractorType": "scope_shift",
+                "distractorExplanation": "没有艺术爱好的beauty组成员得分比对照组高14%，但不如有艺术爱好的beauty组（25%）。选项缩小了最高得分范围。",
+                "evidenceSentence": "those in the beauty group scored almost 14% higher on average than the control group in abstract thinking.",
+                "questionId": 2033
+              },
+              {
+                "id": "C",
+                "text": "Control group, with an artistic hobby.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "有艺术爱好的对照组是beauty组25%增幅的对比基准，其得分低于beauty组。",
+                "evidenceSentence": "",
+                "questionId": 2033
+              },
+              {
+                "id": "D",
+                "text": "Control group, without an artistic hobby.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "没有艺术爱好的对照组得分最低。",
+                "evidenceSentence": "",
+                "questionId": 2033
+              }
+            ],
+            "correctAnswer": "A",
+            "passageAnnotations": [
+              "artistic hobby",
+              "beauty group",
+              "25% higher",
+              "abstract thinking"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"participants\"（参与者）、\"highest score\"（最高分）、\"average\"（平均）、\"test\"（测试）是定位关键词。",
+              "locationReasoning": "第三段：有艺术爱好的beauty组成员得分最高——比对照组同类型高25%，而整体beauty组只高14%。",
+              "exclusionReasoning": "B选项无爱好beauty组：只有14%提升而非最高。C/D对照组：得分低于beauty组。",
+              "conclusion": "正确答案为 A（Beauty group, with an artistic hobby / 有艺术爱好的beauty组）。25%增幅 = 最高。",
+              "logicChain": [
+                "① 题干关键词定位：highest score + average + test → P3",
+                "② 数据对比：beauty组整体+14%，有爱好beauty组+25%",
+                "③ 判断：25% > 14% → 有爱好beauty组得分最高",
+                "④ 排除：B(14%)、C/D(对照组基准)",
+                "⑤ 判定：A ✓"
+              ]
+            }
+          },
+          {
+            "id": 2034,
+            "number": 34,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "Why were the participants' emotional states measured?",
+            "stemTokens": [
+              {
+                "text": "Why",
+                "index": 0,
+                "isKeyword": true
+              },
+              {
+                "text": "were",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "participants'",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "emotional",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "states",
+                "index": 5,
+                "isKeyword": true
+              },
+              {
+                "text": "measured?",
+                "index": 6,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              18
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "To discover their attitudes towards art.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "测量情绪不是为了发现对艺术的态度，而是为了确认影响抽象思维的是「美感参与」而非「整体积极情绪」。",
+                "evidenceSentence": "",
+                "questionId": 2034
+              },
+              {
+                "id": "B",
+                "text": "To identify their specific thinking patterns.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "测量情绪不是为了识别思维模式，思维模式通过抽象思维测试来测量。",
+                "evidenceSentence": "",
+                "questionId": 2034
+              },
+              {
+                "id": "C",
+                "text": "To examine the difficulty of the tasks.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "测量情绪不是为了检查任务难度，任务难度与情绪测量无关。",
+                "evidenceSentence": "",
+                "questionId": 2034
+              },
+              {
+                "id": "D",
+                "text": "To determine factors behind the test results.",
+                "distractorType": "correct",
+                "distractorExplanation": "测量情绪是为了排除「整体积极情绪」的影响：beauty组没有比对照组更开心，说明是「美感参与」而非「快乐」导致了抽象思维提升。",
+                "evidenceSentence": "Importantly, however, the beauty group did not report feeling any happier than the control group, suggesting that it was the engagement with beauty that influenced abstract thinking, rather than any overall positivity from the experience.",
+                "questionId": 2034
+              }
+            ],
+            "correctAnswer": "D",
+            "passageAnnotations": [
+              "emotional states",
+              "transformative and self-transcendent feelings",
+              "did not report feeling any happier",
+              "engagement with beauty"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"Why\"（原因）、\"participants' emotional states\"（参与者情绪状态）、\"measured\"（测量）是定位关键词。",
+              "locationReasoning": "第四段：测量情绪是为了排除干扰因素。beauty组\"did not report feeling any happier\"——说明影响抽象思维的是美感参与而非快乐情绪。",
+              "exclusionReasoning": "A选项对艺术态度：不是目的。B选项思维模式：这是认知测试的任务。C选项任务难度：与情绪测量无关。",
+              "conclusion": "正确答案为 D（To determine factors behind the test results / 确定测试结果背后的因素）。排除快乐情绪 = 确认美感参与是真正因素。",
+              "logicChain": [
+                "① 题干关键词定位：Why + emotional states + measured → P4",
+                "② 关键句：\"the beauty group did not report feeling any happier\"",
+                "③ 推断：测量情绪 = 排除干扰因素（快乐情绪）",
+                "④ 确认：美感参与 → 抽象思维提升，而非快乐",
+                "⑤ 判定：D ✓"
+              ]
+            }
+          },
+          {
+            "id": 2035,
+            "number": 35,
+            "questionType": "inference",
+            "locked": false,
+            "stem": "What is the major finding of the study regarding the appreciation of art?",
+            "stemTokens": [
+              {
+                "text": "What",
+                "index": 0,
+                "isKeyword": false
+              },
+              {
+                "text": "is",
+                "index": 1,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 2,
+                "isKeyword": false
+              },
+              {
+                "text": "major",
+                "index": 3,
+                "isKeyword": true
+              },
+              {
+                "text": "finding",
+                "index": 4,
+                "isKeyword": true
+              },
+              {
+                "text": "of",
+                "index": 5,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 6,
+                "isKeyword": false
+              },
+              {
+                "text": "study",
+                "index": 7,
+                "isKeyword": true
+              },
+              {
+                "text": "regarding",
+                "index": 8,
+                "isKeyword": false
+              },
+              {
+                "text": "the",
+                "index": 9,
+                "isKeyword": false
+              },
+              {
+                "text": "appreciation",
+                "index": 10,
+                "isKeyword": true
+              },
+              {
+                "text": "of",
+                "index": 11,
+                "isKeyword": false
+              },
+              {
+                "text": "art?",
+                "index": 12,
+                "isKeyword": true
+              }
+            ],
+            "answerBlocks": [
+              19
+            ],
+            "options": [
+              {
+                "id": "A",
+                "text": "It enhances emotional ties.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "研究的主要发现是审美促进抽象思维，而非增强情感联系。beauty组确实有更高的\"transformative feelings\"，但这是中间变量而非最终发现。",
+                "evidenceSentence": "",
+                "questionId": 2035
+              },
+              {
+                "id": "B",
+                "text": "It needs critical thinking skills.",
+                "distractorType": "unsupported",
+                "distractorExplanation": "原文没有讨论欣赏艺术需要批判性思维技能。",
+                "evidenceSentence": "",
+                "questionId": 2035
+              },
+              {
+                "id": "C",
+                "text": "It creates positive feelings.",
+                "distractorType": "concept_swap",
+                "distractorExplanation": "beauty组确实有更高的自我超越感受，但他们没有更快乐（\"did not report feeling any happier\"）。选项把「自我超越感受」偷换成了笼统的「积极感受」。更重要的是，这只是中间发现而非主要发现。",
+                "evidenceSentence": "the beauty group did not report feeling any happier than the control group",
+                "questionId": 2035
+              },
+              {
+                "id": "D",
+                "text": "It encourages abstract thinking.",
+                "distractorType": "correct",
+                "distractorExplanation": "研究的主要发现：欣赏艺术之美能促进抽象思维。beauty组在抽象思维测试中得分显著高于对照组（14%整体，25%有艺术爱好者），且这种效果来自美感参与而非快乐情绪。",
+                "evidenceSentence": "Admiring the beauty of art may be the ideal way to initiate the abstract cognitive processes.",
+                "questionId": 2035
+              }
+            ],
+            "correctAnswer": "D",
+            "passageAnnotations": [
+              "abstract thinking",
+              "14% higher",
+              "25% higher",
+              "engagement with beauty",
+              "abstract cognitive processes"
+            ],
+            "analysis": {
+              "keywordReasoning": "题干中 \"major finding\"（主要发现）、\"study\"（研究）、\"appreciation of art\"（艺术欣赏）是定位关键词。",
+              "locationReasoning": "全文核心发现：beauty组（主动欣赏美）抽象思维得分显著更高。Schnall总结：「Admiring the beauty of art may be the ideal way to initiate the abstract cognitive processes。」",
+              "exclusionReasoning": "A选项增强情感联系：不是主要发现。B选项需要批判思维：原文未提。C选项创造积极感受：beauty组没有更快乐，且这只是中间变量。",
+              "conclusion": "正确答案为 D（It encourages abstract thinking / 它促进抽象思维）。欣赏艺术之美 → 抽象认知过程启动。",
+              "logicChain": [
+                "① 题干关键词定位：major finding + appreciation of art → 全文核心",
+                "② 数据证据：beauty组抽象思维+14%/+25%",
+                "③ 排除干扰：不是快乐情绪驱动（对照组同样快乐）",
+                "④ 结论确认：Schnall \"Admiring beauty initiates abstract cognitive processes\"",
+                "⑤ 判定：D ✓"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-slate-800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  }
+}
+
+@layer components {
+  /* Step progress bar */
+  .step-dot {
+    @apply w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold border-2 transition-all duration-300;
+  }
+  .step-dot-active {
+    @apply bg-primary-600 border-primary-600 text-white shadow-lg shadow-primary-200;
+  }
+  .step-dot-done {
+    @apply bg-accent-500 border-accent-500 text-white;
+  }
+  .step-dot-pending {
+    @apply bg-white border-slate-200 text-slate-400;
+  }
+  .step-line {
+    @apply flex-1 h-0.5 transition-all duration-300;
+  }
+  .step-line-done {
+    @apply bg-accent-500;
+  }
+  .step-line-pending {
+    @apply bg-slate-200;
+  }
+
+  /* Word chip styles */
+  .word-chip {
+    @apply inline-block px-2 py-1 rounded-lg text-base cursor-pointer select-none transition-all duration-200 border-2;
+  }
+  .word-chip-default {
+    @apply bg-white border-slate-200 text-slate-700 hover:border-primary-300 hover:bg-primary-50;
+  }
+  .word-chip-selected {
+    @apply bg-accent-100 border-accent-500 text-accent-700 font-medium shadow-sm;
+  }
+  .word-chip-amber {
+    @apply bg-amber-50 border-amber-400 text-amber-700;
+  }
+  .word-chip-missed {
+    @apply bg-amber-50 border-amber-300 text-amber-600 border-dashed;
+  }
+  .word-chip-revealed {
+    @apply bg-accent-50 border-accent-400 text-accent-600 border-dashed;
+  }
+
+  /* Passage sentence block */
+  .sentence-block {
+    @apply p-3 rounded-xl border-2 cursor-pointer transition-all duration-200 hover:shadow-md;
+  }
+  .sentence-block-default {
+    @apply bg-white border-slate-100 text-slate-700 hover:border-primary-200;
+  }
+  .sentence-block-selected {
+    @apply bg-accent-50 border-accent-400 shadow-sm;
+  }
+  .sentence-block-wrong {
+    @apply bg-amber-50 border-amber-300;
+  }
+  .sentence-block-revealed {
+    @apply bg-accent-50 border-accent-400 ring-1 ring-accent-300;
+  }
+
+  /* Option card */
+  .option-card {
+    @apply p-4 rounded-xl border-2 cursor-pointer transition-all duration-200;
+  }
+  .option-card-default {
+    @apply bg-white border-slate-200 hover:border-primary-300 hover:bg-primary-50;
+  }
+  .option-card-selected {
+    @apply bg-primary-50 border-primary-500 shadow-sm;
+  }
+  .option-card-correct {
+    @apply bg-accent-50 border-accent-500 shadow-sm ring-1 ring-accent-300;
+  }
+  .option-card-wrong {
+    @apply bg-red-50 border-red-400;
+  }
+
+  /* Analysis card */
+  .analysis-card {
+    @apply bg-white rounded-2xl border border-slate-200 p-6 shadow-sm;
+  }
+
+  /* Glass panel */
+  .glass-panel {
+    @apply bg-white/80 backdrop-blur-sm border border-slate-200/60 rounded-2xl shadow-lg;
+  }
+
+  /* Keyword collection badge */
+  .keyword-badge {
+    @apply inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium bg-accent-100 text-accent-700 animate-fadeIn;
+  }
+
+  /* Step transition — now via Tailwind animate- utilities */
+  .step-enter {
+    @apply animate-slideUp;
+  }
+  .step-exit {
+    @apply animate-fadeOut;
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.3); }
+  50% { box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Passage text style */
+.passage-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+}

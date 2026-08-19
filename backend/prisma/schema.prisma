@@ -1,0 +1,153 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  practiceRecords PracticeRecord[]
+
+  @@map("users")
+}
+
+model Paper {
+  id          String   @id
+  name        String
+  year        Int
+  description String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  passages Passage[]
+
+  @@map("papers")
+}
+
+model Passage {
+  id               String   @id
+  paperId          String   @map("paper_id")
+  title            String
+  sourceInfo       String?  @map("source_info")
+  passageStructure String?  @map("passage_structure")
+  passageSummary   String?  @map("passage_summary")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  paper      Paper       @relation(fields: [paperId], references: [id])
+  paragraphs Paragraph[]
+  questions  Question[]
+
+  @@map("passages")
+}
+
+model Paragraph {
+  id        Int    @id
+  passageId String @map("passage_id")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  passage   Passage    @relation(fields: [passageId], references: [id])
+  sentences Sentence[]
+
+  @@map("paragraphs")
+}
+
+model Sentence {
+  id          Int    @id
+  paragraphId Int    @map("paragraph_id")
+  text        String
+  tokens      String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  paragraph Paragraph @relation(fields: [paragraphId], references: [id])
+
+  @@map("sentences")
+}
+
+model Question {
+  id               Int     @id
+  passageId        String  @map("passage_id")
+  number           Int
+  questionType     String  @map("question_type")
+  locked           Boolean @default(false)
+  stem             String
+  stemTokens       String  @map("stem_tokens")
+  answerBlocks     String  @map("answer_blocks")
+  correctAnswer    String  @map("correct_answer")
+  analysis         String
+  mainIdeaAnalysis String? @map("main_idea_analysis")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  passage         Passage          @relation(fields: [passageId], references: [id])
+  options         Option[]
+  practiceRecords PracticeRecord[]
+
+  @@map("questions")
+}
+
+model Option {
+  questionId           Int     @map("question_id")
+  id                   String
+  text                 String
+  distractorType       String  @map("distractor_type")
+  distractorExplanation String? @map("distractor_explanation")
+  evidenceSentence     String? @map("evidence_sentence")
+  createdAt            DateTime @default(now()) @map("created_at")
+  updatedAt            DateTime @updatedAt @map("updated_at")
+
+  question Question @relation(fields: [questionId], references: [id])
+
+  @@id([questionId, id])
+  @@map("options")
+}
+
+model PracticeRecord {
+  id                    Int      @id @default(autoincrement())
+  userId                Int      @map("user_id")
+  passageId             String   @map("passage_id")
+  questionId            Int      @map("question_id")
+  mode                  String   @default("practice")
+  step                  Int      @default(1)
+  selectedKeywords      String?  @map("selected_keywords")
+  selectedBlockIds      String?  @map("selected_block_ids")
+  distractorJudgments   String?  @map("distractor_judgments")
+  finalAnswer           String?  @map("final_answer")
+  isCorrect             Boolean? @map("is_correct")
+  keywordAccuracy       Float?   @map("keyword_accuracy")
+  locationAccuracy      Float?   @map("location_accuracy")
+  timeSpentMs           Int?     @map("time_spent_ms")
+  highlights            String?
+  underlines            String?
+  notes                 String?
+  mainMethod            String?  @map("main_method")
+  structurePrediction   String?  @map("structure_prediction")
+  mainSummary           String?  @map("main_summary")
+  keywordConfirmed      Boolean  @default(false) @map("keyword_confirmed")
+  blockConfirmed        Boolean  @default(false) @map("block_confirmed")
+  distractorConfirmed   Boolean  @default(false) @map("distractor_confirmed")
+  answerSubmitted       Boolean  @default(false) @map("answer_submitted")
+  mainSummaryConfirmed  Boolean  @default(false) @map("main_summary_confirmed")
+  structureConfirmed    Boolean  @default(false) @map("structure_confirmed")
+  startedAt             DateTime? @map("started_at")
+  submittedAt           DateTime? @map("submitted_at")
+  createdAt             DateTime  @default(now()) @map("created_at")
+  updatedAt             DateTime  @updatedAt @map("updated_at")
+
+  user     User     @relation(fields: [userId], references: [id])
+  question Question @relation(fields: [questionId], references: [id])
+
+  @@unique([userId, passageId, questionId])
+  @@map("practice_records")
+}
